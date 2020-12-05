@@ -7,6 +7,8 @@ import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Scheduler from './components/scheduler.js';
 import Chat from './components/chat.js';
 
+
+
 function App() {
   return (
     <div className="App">

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cometchat-pro/react-native-chat": "^2.1.5",
     "@pusher/chatkit-client-react": "^0.1.4",
     "@syncfusion/ej2-react-schedule": "^18.3.51",
     "@testing-library/jest-dom": "^5.11.6",
