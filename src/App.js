@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import LogIn from './components/LogIn';
 import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Scheduler from './components/scheduler.js';
+import Countdown from './components/CountDownClock.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
            <Route path ="/events" component={Scheduler} />
           <Route path='/' exact component={Home} />
           <Route path='/sign-up' exact component={LogIn} />
+          <Route path ='/games' component = {Countdown} />
         </Switch>
       </Router>
     </div>
