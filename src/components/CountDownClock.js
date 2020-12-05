@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CountDown = ({ hours = 0, minutes = 0, seconds = 0 }) => {
+const CountDown = ({ hours = 0, minutes = 0, seconds = 50 }) => {
     const [paused, setPaused] = React.useState(false);
     const [over, setOver] = React.useState(false);
     const [[h, m, s], setTime] = React.useState([hours, minutes, seconds]);
