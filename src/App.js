@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Scheduler from './components/scheduler.js';
+import Zoom from './components/Zoom.js';
 
 function App() {
   return (
